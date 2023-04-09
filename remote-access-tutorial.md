@@ -1,6 +1,6 @@
 #
 # Connecting to a Remote Server #
-# 
+ 
 *5 minute read, 30-90 minute setup* 
 
 In this tutorial we are going to be connecting our current computer to a remote server and gain access to the files saved on it.
