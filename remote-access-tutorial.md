@@ -33,6 +33,7 @@ If you do not have VSCODE downloaded continue to Part 2.
 Visual Studio Code is a code editor and you will use its terminal to connect to a remote computer. An internet connection is necessary. 
 
 Go to the link https://code.visualstudio.com/
+
 Download the version that corresponds to your operating system and open the editor.
 
 Tip: On Mac, make sure to move VSCODE out of your Downloads folder and into your Apps Folder if you can’t find it in Spotlight.
