@@ -1,9 +1,9 @@
-Connecting to a Remote Server 
-5 minute read, 30-90 minute setup
+#Connecting to a Remote Server 
+**5 minute read, 30-90 minute setup
 
 In this tutorial we are going to be connecting our current computer to a remote server and gain access to the files saved on it.
 
-Part 1 : Finding Course-Specific Credentials
+##Part 1 : Finding Course-Specific Credentials
 Before doing anything we need to know the username and password associated with the account we want to access.
 
 Start by visiting the link below: 
@@ -27,7 +27,7 @@ If VSCODE is already downloaded onto your computer, wait at least 15 min before 
 
 If you do not have VSCODE downloaded continue to Part 2.
 
-Part 2: Downloading VSCODE
+##Part 2: Downloading VSCODE
 Visual Studio Code is a code editor and you will use its terminal to connect to a remote computer. An internet connection is necessary. 
 
 Go to the link https://code.visualstudio.com/
@@ -38,7 +38,7 @@ Tip: On Mac, make sure to move VSCODE out of your Downloads folder and into your
 VSCODE should look something like this:
 
 
-Part 3: Remotely Connecting
+##Part 3: Remotely Connecting
 Reminder: Make sure you waited at least 15 minutes to let the password set before starting this section. 
 
 The hardest part is already past us.
@@ -53,7 +53,7 @@ If all the information was correct you should now be virtually connected to anot
 
 If you waited the appropriate amount of time and you are still having trouble logging in, go back to the Global Password Change Tool. Reset your course specific account password, and redo this section.
 
-Part 4: Trying Some Commands
+##Part 4: Trying Some Commands
 The first command you should try in your terminal, should always be pwd since it will let you know what directory you are in.
 Other notable commands include ls, cd, and  ~
 Review the following screenshots to see what these and other commands can do:
