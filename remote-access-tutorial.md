@@ -3,7 +3,8 @@
  
 *5 minute read, 30-90 minute setup* 
 
-In this tutorial, we are going to learn how to (legally) hack into a remote server and gain access to its files from our computer.
+In this tutorial, we are going to learn how to (legally) hack into a remote server from our computer and gain access to its files. 
+Let's begin!
 
 #
 ### Part 1 : Finding Course-Specific Credentials ###
