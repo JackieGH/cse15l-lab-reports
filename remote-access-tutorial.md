@@ -7,6 +7,7 @@ In this tutorial, we are going to learn how to (legally) hack into a remote serv
 
 Let's begin! 
 #
+
 ### Part 1 : Finding Course-Specific Credentials ###
 Before doing anything we need to know the username and password associated with the account we want to access.
 
