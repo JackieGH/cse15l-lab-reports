@@ -30,10 +30,9 @@ You should now be on a page that looks very similar to the previous page. Except
 
 #
 When redirected, make sure to enter your course-specific username, NOT your general username! 
-
+Note: Resetting passwords requires a minimum of 15-60 min before a successful login.
 <img src="/images/enteruser.png">
 
-Note: Resetting passwords requires a minimum of 15-60 min before a successful login.
 
 *If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.*. 
 
