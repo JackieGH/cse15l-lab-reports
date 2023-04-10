@@ -16,12 +16,12 @@ Login with your student ID
 and student username.
 Note: this should be the first part of your student email before the “@“ (i.e student1 is the username for student1@ucsd.edu)
 
-Once logged in you should see a page titled Account Lookup Results navigate to the Additional Accounts section.  
+Once logged in you should see a page titled **Account Lookup Results** navigate to the **Additional Accounts** section.  
 Depending on your course history there may be several buttons to choose from.
 Click the account button relevant to this course, it should start with cs15lsp23__
 The blank should be replaced by the last two letters assigned to your username.
 
-You should now be on a page that looks very similar to the previous page. Except now, your course-specific username should be the first thing under Account Lookup Results. You should also see a warning box prompting you to set your account password. Click the blue Global Password Change Tool link inside the orange box. 
+You should now be on a page that looks very similar to the previous page. Except now, your course-specific username should be the first thing under **Account Lookup Results**. You should also see a warning box prompting you to set your account password. Click the blue <u>Global Password Change Tool<u> link inside the orange box. 
 
 When redirected, make sure to enter your course-specific username, NOT your general username! 
 Note: Resetting passwords requires a minimum of 15-60 min before a successful login.
