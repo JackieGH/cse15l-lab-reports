@@ -72,5 +72,6 @@ If you waited the appropriate amount of time and you are still having trouble lo
 ### Part 4: Trying Some Commands ###
 The first command you should try in your terminal, should always be pwd since it will let you know what directory you are in.
 Other notable commands include ls, cd, and  ~
+
 Review the following screenshots to see what these and other commands can do:
 <img src="./images/somecommands.png">
