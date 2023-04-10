@@ -31,6 +31,7 @@ You should now be on a page that looks very similar to the previous page. Except
 #
 When redirected, make sure to enter your course-specific username, NOT your general username! 
 Note: Resetting passwords requires a minimum of 15-60 min before a successful login.
+
 <img src="/images/enteruser.png">
 
 
@@ -61,6 +62,7 @@ Enter ssh cs15lsp23__@ieng6.ucsd.edu
 Note: It is highly recommended that you use copy and paste, especially when typing in the password since it will be hidden.
 
 If you run into a question about authenticity and connecting? Choose “yes”, this is normal since it should be your first time connecting to the server.
+
 <img src ="/images/firsttimelogin.png">
 
 If all the information was correct you should now be virtually connected to another computer!
