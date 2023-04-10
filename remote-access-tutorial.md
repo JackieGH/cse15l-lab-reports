@@ -27,9 +27,8 @@ When redirected, make sure to enter your course-specific username, NOT your gene
 
 Note: Resetting passwords requires a minimum of 15-60 min before a successful login.
 
-If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.
-
-If you do not have VSCODE downloaded continue to Part 2.
+*If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.*
+*If you do not have VSCODE downloaded continue to Part 2.*
 
 ### Part 2: Downloading VSCODE ###
 Visual Studio Code is a code editor and you will use its terminal to connect to a remote computer. An internet connection is necessary. 
@@ -44,7 +43,7 @@ VSCODE should look something like this:
 
 
 ### Part 3: Remotely Connecting ###
-Reminder: Make sure you waited at least 15 minutes to let the password set before starting this section. 
+*Reminder: Make sure you waited at least 15 minutes to let the password set before starting this section.*
 
 The hardest part is already past us.
 
