@@ -27,7 +27,8 @@ When redirected, make sure to enter your course-specific username, NOT your gene
 
 Note: Resetting passwords requires a minimum of 15-60 min before a successful login.
 
-*If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.*
+*If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.*. 
+
 *If you do not have VSCODE downloaded continue to Part 2.*
 
 ### Part 2: Downloading VSCODE ###
