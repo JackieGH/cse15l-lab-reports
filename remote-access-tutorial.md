@@ -1,4 +1,3 @@
-#
 # Connecting to a Remote Server #
  
 *5 minute read, 30-90 minute setup* 
