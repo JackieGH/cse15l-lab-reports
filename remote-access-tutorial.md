@@ -21,14 +21,14 @@ Depending on your course history there may be several buttons to choose from.
 Click the account button relevant to this course, it should start with cs15lsp23__
 The blank should be replaced by the last two letters assigned to your username.
 
-You should now be on a page that looks very similar to the previous page. Except now, your course-specific username should be the first thing under **Account Lookup Results**. You should also see a warning box prompting you to set your account password. Click the $\text{\color{blue}<u>Global \ Password \ Change \ Tool</u>}$ link.
+You should now be on a page that looks very similar to the previous page. Except now, your course-specific username should be the first thing under **Account Lookup Results**. You should also see a warning box prompting you to set your account password. Click the $\text{\color{blue}Global \ Password \ Change \ Tool}$ link.
 
 When redirected, make sure to enter your course-specific username, NOT your general username! 
 Note: Resetting passwords requires a minimum of 15-60 min before a successful login.
 
 If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.
 
-If you do not have VSCODE downloaded continue to Part 2.
+If you do not have <u>VSCODE</u> downloaded continue to Part 2.
 
 ### Part 2: Downloading VSCODE ###
 Visual Studio Code is a code editor and you will use its terminal to connect to a remote computer. An internet connection is necessary. 
