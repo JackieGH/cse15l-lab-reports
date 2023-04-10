@@ -48,7 +48,7 @@ Download the version that corresponds to your operating system and open the edit
 Tip: On Mac, make sure to move VSCODE out of your Downloads folder and into your Apps Folder if you can’t find it in Spotlight.
 
 VSCODE should look something like this:
-
+<img src="/images/VSCODE.png">
 
 ### Part 3: Remotely Connecting ###
 *Reminder: Make sure you waited at least 15 minutes to let the password set before starting this section.*
