@@ -25,6 +25,7 @@ Depending on your course history there may be several buttons to choose from.
 The blank should be replaced by the last two letters assigned to your username.
 
 You should now be on a page that looks very similar to the previous page. Except now, your course-specific username should be the first thing under **Account Lookup Results**. You should also see a warning box prompting you to set your account password. Click the blue <ins>Global Password Change Tool</ins> link.
+
 <img src="/images/resultsloggedin2.png">
 
 When redirected, make sure to enter your course-specific username, NOT your general username! 
