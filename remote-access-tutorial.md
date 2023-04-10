@@ -31,6 +31,8 @@ You should now be on a page that looks very similar to the previous page. Except
 #
 When redirected, make sure to enter your course-specific username, NOT your general username! 
 
+<img src="/images/enteruser.png">
+
 Note: Resetting passwords requires a minimum of 15-60 min before a successful login.
 
 *If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.*. 
@@ -60,8 +62,10 @@ Enter ssh cs15lsp23__@ieng6.ucsd.edu
 Note: It is highly recommended that you use copy and paste, especially when typing in the password since it will be hidden.
 
 If you run into a question about authenticity and connecting? Choose “yes”, this is normal since it should be your first time connecting to the server.
+<img src ="/images/firsttimelogin.png">
 
 If all the information was correct you should now be virtually connected to another computer!
+<img src ="/images/success.png">
 
 If you waited the appropriate amount of time and you are still having trouble logging in, go back to the <ins>Global Password Change Tool</ins>. Reset your course specific account password, and redo this section.
 
@@ -69,3 +73,4 @@ If you waited the appropriate amount of time and you are still having trouble lo
 The first command you should try in your terminal, should always be pwd since it will let you know what directory you are in.
 Other notable commands include ls, cd, and  ~
 Review the following screenshots to see what these and other commands can do:
+<img src="/images/somecommands.png">
