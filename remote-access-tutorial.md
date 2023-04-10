@@ -28,7 +28,7 @@ Note: Resetting passwords requires a minimum of 15-60 min before a successful lo
 
 If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.
 
-If you do not have <u>{VSCODE}</u> downloaded continue to Part 2.
+If you do not have $<u>VSCODE</u>$ downloaded continue to Part 2.
 
 ### Part 2: Downloading VSCODE ###
 Visual Studio Code is a code editor and you will use its terminal to connect to a remote computer. An internet connection is necessary. 
