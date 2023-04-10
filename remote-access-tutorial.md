@@ -11,6 +11,7 @@ Before doing anything we need to know the username and password associated with 
 
 Start by visiting the link below: 
 https://sdacs.ucsd.edu/~icc/index.php
+!(cse15l-lab-reports/images/accountlookup.png)
 
 Login with your student ID 
 and student username.
