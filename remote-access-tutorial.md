@@ -18,6 +18,7 @@ and student username.
 Note: this should be the first part of your student email before the “@“ (i.e student1 is the username for student1@ucsd.edu)
 
 <img src="/images/resultsloggedin1.png">
+
 Once logged in you should see a page titled **Account Lookup Results** navigate to the **Additional Accounts** section.
 Depending on your course history there may be several buttons to choose from.
 **Click** the account button relevant to this course, it should start with cs15lsp23__
