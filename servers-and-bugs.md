@@ -1,9 +1,9 @@
 ## Servers and Bugs ##
 ### Part 1 ###
 ### Part 2 ###
-<u> Testing Methods in `ArrayExamples.java` </u> 
+#### Testing Methods in `ArrayExamples.java`#### 
 
-**Failure-inducing Input for** `reverseInPlace`: <br>
+Failure-inducing Input for `reverseInPlace`: <br>
 
     @Test
       public void testReverseInPlace1() { 
@@ -12,7 +12,7 @@
         assertArrayEquals(new int[]{3,2,1}, input2); 
       }
 
-**Non-failiure-inducing Input for** `reverseInPlace`: <br>
+Non-failiure-inducing Input for `reverseInPlace`: <br>
 
         @Test
           public void testReverseInPlace2() {
@@ -21,10 +21,10 @@
             assertArrayEquals(new int[]{1,1}, input3);
           }
 
-**Examine the Output (the Symptom)**: <br>
+Examine the Output (the Symptom): <br>
 ()
 
-**Fix Faulty Code (the Bug)**: <br>
+Fix Faulty Code (the Bug): <br>
 
 <table>
 <tr>
