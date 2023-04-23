@@ -22,7 +22,7 @@ Non-failiure-inducing Input for `reverseInPlace`: <br>
           }
 
 Showing Symptoms: <br>
-[The Ouput](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/methodSymptom.png)
+![The Ouput](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/methodSymptom.png)
 
 Fix the Bug: <br>
 
