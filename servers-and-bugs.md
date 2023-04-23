@@ -3,13 +3,12 @@
 ### Part 2 ###
 Testing Methods in ArrayExamples.java <br>
 A failure-inducing input for **reverseInPlace Method**: <br>
-`
-@Test
-  public void testReverseInPlace1() {
-    int[] input2 = {1,2,3};
-    ArrayExamples.reverseInPlace(input2);
-    assertArrayEquals(new int[]{3,2,1}, input2);
-  }
+`@Test'
+  'public void testReverseInPlace1() {' <br>
+    'int[] input2 = {1,2,3};' <br>
+    'ArrayExamples.reverseInPlace(input2);' <br>
+    'assertArrayEquals(new int[]{3,2,1}, input2);' <br>
+  '}'
 
 `
 ### Part 3 ###
