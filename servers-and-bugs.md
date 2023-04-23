@@ -21,10 +21,10 @@ Non-failiure-inducing Input for `reverseInPlace`: <br>
             assertArrayEquals(new int[]{1,1}, input3);
           }
 
-Examine the Output (the Symptom): <br>
-()
+Showing Symptoms: <br>
+[The Ouput]()
 
-Fix Faulty Code (the Bug): <br>
+Fix the Bug: <br>
 
 <table>
 <tr>
