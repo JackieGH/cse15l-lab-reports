@@ -33,8 +33,7 @@ Note: Resetting the password requires a minimum of 15-60 min before a successful
 <img src="./images/enteruser.png">
 
 
-*If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.*. 
-
+*If VSCODE is already downloaded onto your computer, wait at least 15 min before moving onto Part 3.*. <br>
 *If you do not have VSCODE downloaded continue to Part 2.*
 #
 
