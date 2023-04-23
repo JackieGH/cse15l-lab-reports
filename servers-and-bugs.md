@@ -1,4 +1,5 @@
-## Servers and Bugs Lab 2 ##
+## Servers and Bugs ##
 ### Part 1 ###
 ### Part 2 ###
 ### Part 3 ###
+In Week 2, deciphering the parts of a URL was an insightful discovery that made building a server less daunting. I had tested HTML, CSS, and JavaScript code on a temporary server before for another class -- COGS 3. However, the way I launched a temporary server was through VSCODE's `Publish` option, so I never really knew how this happened without the editor. I also bought a domain about a year ago, but never made anything on it. So it's more of a parked domain. Now, I feel hopeful about actually being able to develop some content because I'm more knowledgeable about how webpages are working.
