@@ -3,7 +3,7 @@
 ### Part 2 ###
 Testing Methods in `ArrayExamples.java` <br>
 
-A Failure-Inducing Input for **reverseInPlace**: <br>
+**Failure-inducing Input for** `reverseInPlace`: <br>
 
     @Test
       public void testReverseInPlace1() { 
@@ -12,7 +12,7 @@ A Failure-Inducing Input for **reverseInPlace**: <br>
         assertArrayEquals(new int[]{3,2,1}, input2); 
       }
 
-A Non-Failure Inducing Input for **reverseInPlace**: <br>
+**Non-failiure-inducing Input for** `reverseInPlace`: <br>
 
         @Test
           public void testReverseInPlace2() {
@@ -21,10 +21,10 @@ A Non-Failure Inducing Input for **reverseInPlace**: <br>
             assertArrayEquals(new int[]{1,1}, input3);
           }
 
-Examine the Output (the Symptom): <br>
+**Examine the Output (the Symptom)**: <br>
 ()
 
-Fix Faulty Code (the Bug): <br>
+**Fix Faulty Code (the Bug)**: <br>
 
 <table>
 <tr>
