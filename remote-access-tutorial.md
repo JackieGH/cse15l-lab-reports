@@ -13,7 +13,7 @@ Start by visiting the link:
 <img src="./images/accountlookup.png">
 
 Login with your student ID and student username. <br>
-Note: Your username corresponds to the first part of your student email before the "@" (i.e `student1` is the username for student1@ucsd.edu)
+Note: Your username corresponds to the first part of your student email before the "@" <br> (i.e `student1` is the username for student1@ucsd.edu)
 
 <img src="./images/resultsloggedin1.png">
 
@@ -61,10 +61,10 @@ If you run into a question about authenticity and connecting? Enter `yes`, this 
 
 <img src ="./images/firsttimelogin.png">
 
-If all the information was correct you should now be virtually connected to another computer!
+If all the credentials were correct, you should now be virtually connected to another computer!
 <img src ="./images/success.png">
 
-If you waited the appropriate amount of time but are still having trouble logging in, revisit the <ins>Global Password Change Tool</ins>.<br> Reset your course specific account password, and redo **Part 3**.
+If you are having trouble connecting, consider waiting out the maximum time. <br> Then, if you are still having trouble connecting, revisit the <ins>Global Password Change Tool</ins> and reset your course-specific password again. Repeat **Part 3**.
 
 ### Part 4: Trying Some Commands ###
 The first command you should try in your terminal, should always be `pwd` since it will let you know what directory you are in.
