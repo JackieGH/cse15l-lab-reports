@@ -45,6 +45,7 @@ Fixing The Bug: Changing the Method Code<br>
 <td>
 
 ```
+    
         static void reverseInPlace(int[] arr) {
             int temp = 0;
             for(int i = 0; i < arr.length/2; i += 1) {
