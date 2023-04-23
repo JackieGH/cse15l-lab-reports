@@ -3,7 +3,7 @@
 *5 minute read, 30-90 minute setup* 
 
 In this tutorial, we are going to learn how to (legally) hack into a remote server from our computer and gain access to its files!<br>
-We will be using VSCODE and course-specific account access to connect to UCSD computers.
+We will be using VSCODE and our course-specific account to connect to UCSD computers.
 
 ### Part 1 : Finding Course-Specific Credentials ###
 Before doing anything we need to know the username and password associated with the account we want to access.
