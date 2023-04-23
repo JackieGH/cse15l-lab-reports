@@ -2,7 +2,7 @@
  
 *5 minute read, 30-90 minute setup* 
 
-In this tutorial, we are going to learn how to (legally) hack into a remote server from our computer and gain access to its files!
+In this tutorial, we are going to learn how to (legally) hack into a remote server from our computer and gain access to its files!<br>
 We will be using VSCODE and course-specific account access to connect to UCSD computers.
 
 ### Part 1 : Finding Course-Specific Credentials ###
@@ -12,8 +12,7 @@ Start by visiting the link:
 (https://sdacs.ucsd.edu/~icc/index.php)
 <img src="./images/accountlookup.png">
 
-Login with your student ID 
-and student username.
+Login with your student ID and student username. <br>
 Note: this should be the first part of your student email before the “@“ (i.e student1 is the username for student1@ucsd.edu)
 
 <img src="./images/resultsloggedin1.png">
