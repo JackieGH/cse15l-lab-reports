@@ -8,8 +8,7 @@ We will be using VSCODE and our course-specific account to connect to UCSD compu
 ### Part 1 : Finding Course-Specific Credentials ###
 Before doing anything we need to know the username and password associated with the account we want to access.
 
-Start by visiting this link for [Account Lookup]
-(https://sdacs.ucsd.edu/~icc/index.php)
+Start by visiting this link for [Account Lookup](https://sdacs.ucsd.edu/~icc/index.php)
 <img src="./images/accountlookup.png">
 
 Login with your student ID and student username. <br>
