@@ -57,9 +57,7 @@ VSCODE should look something like this:
 The hardest part is already past us.
 
 Next fill in the last two letters in the following command and copy it into VSCODE terminal.
-Enter {
-ssh cs15lsp23__@ieng6.ucsd.edu
-}
+Enter `ssh cs15lsp23__@ieng6.ucsd.edu`
 Note: It is highly recommended that you use copy and paste, especially when typing in the password since it will be hidden.
 
 If you run into a question about authenticity and connecting? Choose “yes”, this is normal since it should be your first time connecting to the server.
