@@ -13,7 +13,7 @@ Start by visiting the link:
 <img src="./images/accountlookup.png">
 
 Login with your student ID and student username. <br>
-Note: Username is the first part of your student email before the **@** (i.e `student1` is the username for student1@ucsd.edu)
+Note: Your username corresponds to the first part of your student email before the "@" (i.e `student1` is the username for student1@ucsd.edu)
 
 <img src="./images/resultsloggedin1.png">
 
