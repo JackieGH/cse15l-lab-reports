@@ -9,7 +9,7 @@ We will be using VSCODE and course-specific account access to connect to UCSD co
 Before doing anything we need to know the username and password associated with the account we want to access.
 
 Start by visiting the link below: 
-https://sdacs.ucsd.edu/~icc/index.php
+(https://sdacs.ucsd.edu/~icc/index.php)
 <img src="./images/accountlookup.png">
 
 Login with your student ID 
@@ -42,7 +42,7 @@ Note: Resetting passwords requires a minimum of 15-60 min before a successful lo
 ### Part 2: Downloading VSCODE ###
 Visual Studio Code is a code editor and you will use its terminal to connect to a remote computer. An internet connection is necessary. 
 
-Go to the link https://code.visualstudio.com/
+Go to the link (https://code.visualstudio.com/)
 
 Download the version that corresponds to your operating system and open the editor.
 
@@ -57,7 +57,9 @@ VSCODE should look something like this:
 The hardest part is already past us.
 
 Next fill in the last two letters in the following command and copy it into VSCODE terminal.
-Enter ssh cs15lsp23__@ieng6.ucsd.edu
+Enter {
+ssh cs15lsp23__@ieng6.ucsd.edu
+}
 Note: It is highly recommended that you use copy and paste, especially when typing in the password since it will be hidden.
 
 If you run into a question about authenticity and connecting? Choose “yes”, this is normal since it should be your first time connecting to the server.
