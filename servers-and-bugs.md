@@ -1,7 +1,7 @@
 ## Servers and Bugs ##
 ### Part 1 ###
 ### Part 2 ###
-#### Testing Methods in `ArrayExamples.java`#### 
+#### Testing Methods in `ArrayExamples.java`
 
 Failure-inducing Input for `reverseInPlace`: <br>
 
