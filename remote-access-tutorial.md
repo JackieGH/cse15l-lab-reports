@@ -22,13 +22,13 @@ Depending on your course history there may be several buttons to choose from.<br
 **Click** the account button relevant to this course, it should start with `cs15lsp23__` <br>
 (Replace the blank with the last two letters assigned to your username.)
 
-You should now be on a page that looks very similar to the previous page. <br> Except now, your course-specific username should be the first thing under **Account Lookup Results**. You should also see a warning box prompting you to set your account password. <br> Click the blue <ins>Global Password Change Tool</ins> link.
+You should now be on a page that looks very similar to the previous page. <br> Your course-specific username should be the first thing under **Account Lookup Results**. <br> You should also see a warning box prompting you to set your account password. <br> Click the blue link titled <ins>Global Password Change Tool</ins> 
 
 <img src="./images/resultsloggedin2.png">
 
 #
-When redirected, make sure to enter your course-specific username, **NOT your general student username!** <br>
-Note: Resetting the password requires a minimum of 15-60 min before a successful login!
+This is important--once redirected, make sure to enter your course-specific username, **NOT your general student username** or you will reset your AD password. 
+Be Prepared To Wait: Resetting the password requires a minimum of 15-60 min before a successful login.
 
 <img src="./images/enteruser.png">
 
