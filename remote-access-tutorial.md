@@ -8,7 +8,7 @@ We will be using VSCODE and our course-specific account to connect to UCSD compu
 ### Part 1 : Finding Course-Specific Credentials ###
 Before doing anything we need to know the username and password associated with the account we want to access.
 
-Start by visiting the link: 
+Start by visiting this link for [Account Lookup]
 (https://sdacs.ucsd.edu/~icc/index.php)
 <img src="./images/accountlookup.png">
 
@@ -40,7 +40,7 @@ Be Prepared To Wait: Resetting the password requires a minimum of 15-60 min befo
 ### Part 2: Downloading VSCODE ###
 Visual Studio Code is a code editor and you will use its terminal to connect to a remote computer. An internet connection is necessary. 
 
-Go to the link (https://code.visualstudio.com/)
+Go to the [Visual Studio Code site](https://code.visualstudio.com/)
 
 Download the version that corresponds to your operating system and open the editor. <br>
 Tip: On Mac, make sure to move VSCODE out of your Downloads folder and into your Apps Folder if you can’t find it in Spotlight.
