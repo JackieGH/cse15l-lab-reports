@@ -2,7 +2,8 @@
 ### Part 1 ###
 ### Part 2 ###
 Testing Methods in `ArrayExamples.java` <br>
-A failure-inducing input for **reverseInPlace**: <br>
+
+A Failure-Inducing Input for **reverseInPlace**: <br>
 
     @Test
       public void testReverseInPlace1() { 
@@ -11,7 +12,7 @@ A failure-inducing input for **reverseInPlace**: <br>
         assertArrayEquals(new int[]{3,2,1}, input2); 
       }
 
-A non-failure inducing input for **reverseInPlace**: <br>
+A Non-Failure Inducing Input for **reverseInPlace**: <br>
 
         @Test
           public void testReverseInPlace2() {
@@ -20,10 +21,10 @@ A non-failure inducing input for **reverseInPlace**: <br>
             assertArrayEquals(new int[]{1,1}, input3);
           }
 
-The Symptom: Running J-unit Tests and Examining the Output <br>
+Examine the Output (the Symptom): <br>
 ()
 
-Fixing The Bug: Changing the Method Code<br>
+Fix Faulty Code (the Bug): <br>
 
 <table>
 <tr>
