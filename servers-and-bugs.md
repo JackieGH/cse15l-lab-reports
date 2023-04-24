@@ -21,6 +21,12 @@ Building off of the files we used in Lab, I created a file called `StringServer.
                                 return "404 Not Found!";
                             }   
                         }
+                        
+                        
+My code server ran successfully and I ran it with the messages shown below: <br>
+
+![local server]()
+![local server]()
         
 ### Part 2 ###
 #### Testing Methods in `ArrayExamples.java`
