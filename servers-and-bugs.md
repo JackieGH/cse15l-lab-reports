@@ -24,7 +24,6 @@ Building off of the files we used in Lab, I created a file called `StringServer.
                         
                         
 My code server ran successfully with the messages shown below: <br>
-
 ![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/enterserver.png)
 ![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/wassapserver.png)
 ![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/allmessageserver.png)
