@@ -24,7 +24,7 @@ Building off of the files we used in Lab, I created a file called `StringServer.
                         
                         
 My code server ran successfully and I ran it with the messages shown below: <br>
-
+![local server]()
 ![local server]()
 ![local server]()
         
