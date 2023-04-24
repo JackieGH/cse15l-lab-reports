@@ -12,7 +12,7 @@ Building off of the files we used in Lab, I created a file called `StringServer.
                                 }
                                 if (url.getPath().contains("/add-message")) {
                                     String[] parameters = url.getQuery().split("=");
-                                    if (parameters[0].equals("s")) {  //a method that takes  
+                                    if (parameters[0].equals("s")) {    
                                         text += parameters[1] + "\n"; 
                                         String.format(text);         
                                     }
@@ -51,9 +51,12 @@ The port number I chose **4001** and the method in the **class Handler** is call
 The image above is the output of passing the String value `wassup` in the message query.<br>
 Tracing the **handleRequest** method, this means that the first if condition is not satisfied because we actually extend the URL with a query value, so the next lines of code are ran. <br>
 An array `paramaters` is made of the values found after the `s?=` signaling a String query. <br>
+A String variable `text` is updated by String query value `wassup` concatenated with `\n` a new line. 
 
 ![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/allmessageserver.png)
 
+The image above is the output of passing the String value `hellO` and then `good bye` for the message query in the URL.<br>
+Tracing the **handleRequest** method, we follow that the String variable `text` is updated by `hellO` and then `good bye` and each time is concatenated with `\n` a new line. So the outputs are printed separately every time the server resolves the query.
         
 ### Part 2 ###
 #### Testing Methods in `ArrayExamples.java`
