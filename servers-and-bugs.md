@@ -24,7 +24,7 @@ Building off of the files we used in Lab, I created a file called `StringServer.
                         
                         
 My code server ran successfully with the messages shown below: <br>
-![local server](./images/enterserver.png)
+![local server](images/enterserver.png)
 
 The image above is the output of running `java StringServer 4001` in the terminal. <br>
 In the **`handleRequest`** method, the first if condition is satisified upon the start up of the server.<br>
@@ -46,14 +46,14 @@ Although, not shown in the image above, the code for starting up a server is fou
 
 
 The port number I chose **`4001`** and the method in the **`class Handler`** is called in the last line of the main method above.
-![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/wassapserver.png)
+![local server](images/wassapserver.png)
 
 The image above is the output of passing the String value `wassup` in the message query.<br>
 Tracing the **`handleRequest`** method, this means that the first if condition is not satisfied because we actually extend the URL with a query value, so the next lines of code are ran. <br>
 An array `paramaters` is made of the values found after the `s?=` signaling a String query. <br>
 A String variable `text` is updated by String query value `wassup` concatenated with `\n` a new line. 
 
-![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/allmessageserver.png)
+![local server](images/allmessageserver.png)
 
 The image above is the output of passing the String value `hellO` and then `good bye` for the message query in the URL.<br>
 Tracing the **`handleRequest`** method, we follow that the String variable `text` is updated by `hellO` and then `good bye` and each time is concatenated with `\n` a new line. So the outputs are printed separately every time the server resolves the query.
@@ -81,7 +81,7 @@ Non-failiure-inducing Input for `reverseInPlace`: <br>
 
 Symptoms as Seen in the Terminal: <br>
 
-![The Ouput](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/methodSymptom.png)
+![The Ouput](images/methodSymptom.png)
 
 Fix the Bug: <br>
 
