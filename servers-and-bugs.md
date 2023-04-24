@@ -2,24 +2,25 @@
 ### Part 1 ###
 ### Building a Web Server
 Building off of the files we used in Lab, I created a file called `StringServer.java` with the following code: <br>
-        class Handler implements URLHandler {
-            String text = ""; 
 
-            public String handleRequest(URI url) {
-                if (url.getPath().equals("/")) {
-                    return String.format("enter a message query in the url!");
-                }
-                if (url.getPath().contains("/add-message")) {
-                    String[] parameters = url.getQuery().split("=");
-                    if (parameters[0].equals("s")) {  //a method that takes  
-                        text += parameters[1] + "\n"; 
-                        String.format(text);         
-                    }
-                    return text;
-                }
-                return "404 Not Found!";
-            }   
-        }
+                    class Handler implements URLHandler {
+                        String text = ""; 
+
+                            public String handleRequest(URI url) {
+                                if (url.getPath().equals("/")) {
+                                    return String.format("enter a message query in the url!");
+                                }
+                                if (url.getPath().contains("/add-message")) {
+                                    String[] parameters = url.getQuery().split("=");
+                                    if (parameters[0].equals("s")) {  //a method that takes  
+                                        text += parameters[1] + "\n"; 
+                                        String.format(text);         
+                                    }
+                                    return text;
+                                }
+                                return "404 Not Found!";
+                            }   
+                        }
         
 ### Part 2 ###
 #### Testing Methods in `ArrayExamples.java`
