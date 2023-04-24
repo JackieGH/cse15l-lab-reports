@@ -30,20 +30,20 @@ The image above is the output of running `java StringServer 4001` in the termina
 In the **handleRequest** method, the first if condition is satisified upon the start up of the server.<br>
 Although, not shown in the image above, the code for starting up a server is found in the same file as the **handleRequest** method and looks like:<br>
 
-        public class StringServer {
-            public static void main(String[] args) throws IOException {
-                if(args.length == 0){
-                    System.out.println("Missing port number! Try any number between 1024 to 49151");
-                    return;
-                }
-
-                int port = Integer.parseInt(args[0]);
-
-                Server.start(port, new Handler());
+    public class StringServer {
+      public static void main(String[] args) throws IOException {
+          if(args.length == 0){
+              System.out.println("Missing port number! Try any number between 1024 to 49151");
+              return;
             }
-        }
 
-Since, there is no input for the message query (after the "="), I added code to print out a default message. 
+          int port = Integer.parseInt(args[0]);
+
+          Server.start(port, new Handler());
+            }
+          }
+
+Since, there is no input for the message query (after the "="), I added code to print out a default message. <br>
 
 ![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/wassapserver.png)
 ![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/allmessageserver.png)
