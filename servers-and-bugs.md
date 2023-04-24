@@ -24,7 +24,7 @@ Building off of the files we used in Lab, I created a file called `StringServer.
                         
                         
 My code server ran successfully with the messages shown below: <br>
-![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/enterserver.png)
+![local server](./images/enterserver.png)
 
 The image above is the output of running `java StringServer 4001` in the terminal. <br>
 In the **`handleRequest`** method, the first if condition is satisified upon the start up of the server.<br>
