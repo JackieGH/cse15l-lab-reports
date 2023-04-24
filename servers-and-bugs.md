@@ -1,4 +1,4 @@
-## Servers and Bugs ##
+## Servers and Bugs 
 ### Part 1 ###
 ### Building a Web Server
 Building off of the files we used in Lab, I created a file called `StringServer.java` with the following code: <br>
