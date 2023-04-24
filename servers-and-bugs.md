@@ -24,9 +24,9 @@ Building off of the files we used in Lab, I created a file called `StringServer.
                         
                         
 My code server ran successfully and I ran it with the messages shown below: <br>
-![local server]()
-![local server]()
-![local server]()
+![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/enterserver.png)
+![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/wassapserver.png)
+![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/allmessageserver.png)
         
 ### Part 2 ###
 #### Testing Methods in `ArrayExamples.java`
