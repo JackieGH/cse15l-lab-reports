@@ -25,21 +25,24 @@ Building off of the files we used in Lab, I created a file called `StringServer.
                         
 My code server ran successfully with the messages shown below: <br>
 ![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/enterserver.png)
+
 The image above is the output of running `java StringServer 4001` in the terminal. <br>
 In the **handleRequest** method, the first if condition is satisified upon the start up of the server.<br>
-Although, not shown in the image above, the code for starting up a server is found in the same file as the **handleRequest** method and looks like:
-      public class StringServer {
-          public static void main(String[] args) throws IOException {
-              if(args.length == 0){
-                  System.out.println("Missing port number! Try any number between 1024 to 49151");
-                  return;
-              }
+Although, not shown in the image above, the code for starting up a server is found in the same file as the **handleRequest** method and looks like:<br>
 
-              int port = Integer.parseInt(args[0]);
+        public class StringServer {
+            public static void main(String[] args) throws IOException {
+                if(args.length == 0){
+                    System.out.println("Missing port number! Try any number between 1024 to 49151");
+                    return;
+                }
 
-              Server.start(port, new Handler());
-          }
-      }
+                int port = Integer.parseInt(args[0]);
+
+                Server.start(port, new Handler());
+            }
+        }
+
 Since, there is no input for the message query (after the "="), I added code to print out a default message. 
 
 ![local server](https://github.com/JackieGH/cse15l-lab-reports/blob/main/images/wassapserver.png)
