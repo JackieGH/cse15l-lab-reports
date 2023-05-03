@@ -45,12 +45,12 @@ Although, not shown in the image above, the code for starting up a server is fou
           }
 
 
-The port number I chose **`4001`** and the method in the **`class Handler`** is called in the last line of the main method above.
+The port number I chose **`4001`** and an object belonging to the **`class Handler`** is instantiated then passed into the start method as a parameter.
 ![local server](images/wassapserver.png)
 
 The image above is the output of passing the String value `wassup` in the message query.<br>
 Tracing the **`handleRequest`** method, this means that the first if condition is not satisfied because we actually extend the URL with a query value, so the next lines of code are ran. <br>
-An array `paramaters` is made of the values found after the `s?=` signaling a String query. <br>
+An array `paramaters` is made of the values found after the `?s=` signaling a String query. <br>
 A String variable `text` is updated by String query value `wassup` concatenated with `\n` a new line. 
 
 ![local server](images/allmessageserver.png)
