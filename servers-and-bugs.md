@@ -93,7 +93,6 @@ Fix the Bug: <br>
 <tr>
 <td>
   
-   
         static void reverseInPlace(int[] arr) {
             for(int i = 0; i < arr.length; i += 1) {
               arr[i] = arr[arr.length - i - 1];
@@ -103,10 +102,8 @@ Fix the Bug: <br>
   
 </td>
 <td>
-
-
     
-        static void reverseInPlace(int[] arr) {
+        `static void reverseInPlace(int[] arr) {
             int temp = 0;
             for(int i = 0; i < arr.length/2; i += 1) {
               temp = arr[i];
@@ -114,7 +111,7 @@ Fix the Bug: <br>
               arr[arr.length - i - 1] = temp;
 
             }
-          }
+          }`
                                             
 
 </td>
