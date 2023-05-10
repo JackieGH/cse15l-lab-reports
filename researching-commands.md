@@ -24,7 +24,7 @@ Islam, and celebrated recent suicide <b>bomb</b>ings of American military facili
     In June 1996, an enormous truck <b>bomb</b> detonated in the Khobar Towers residential
         cloudy are the 1993 <b>bomb</b>ing of the World Trade Center, a plot that same year to
         particular interest in learning how to use truck <b>bomb</b>s such as the one that had
-        Dozens of additional militants arrived on later <b>flights</b>.
+        Dozens of additional militants arrived on later <b>flight</b>s.
         embassy in Nairobi was an easy target because a car <b>bomb</b> could be parked close by,
         Members of the cells rented residences, and purchased <b>bomb</b>-making materials and
         <b>bomb</b>s, and acquired the delivery vehicles. On August 4, they made one last casing
@@ -37,16 +37,16 @@ Similarly, the command-line input:
         
 Generates the output:
 <pre>
-Kingdom. It praised the 1983 suicide bombing in Beirut that <b>killed 241 U.S. Marines,
-        especially clear in Egypt. Confronted with a violent Islamist movement that <b>killed
-        appeared to be ungainly but was in fact quite athletic, s<b>killed as a horseman,
-        November 24, 1989, when a remotely controlled car bomb <b>killed Azzam and both of his
-        were <b>killed. The Saudi government arrested four perpetrators, who admitted being
-        Americans were <b>killed, and 372 were wounded. The operation was carried out
-        <b>killed 241 U.S. Marines in Lebanon in 1983. The relationship between al Qaeda and
-        Dozens of additional militants arrived on later flights.
-    The attack on the U.S. embassy in Nairobi destroyed the embassy and <b>killed 12
-        attack on the U.S. embassy in Dar es Salaam <b>killed 11 more people, none of them
+Kingdom. It praised the 1983 suicide bombing in Beirut that <b>killed</b> 241 U.S. Marines,
+        especially clear in Egypt. Confronted with a violent Islamist movement that <b>killed</b>
+        appeared to be ungainly but was in fact quite athletic, s<b>killed</b> as a horseman,
+        November 24, 1989, when a remotely controlled car bomb <b>killed</b> Azzam and both of his
+        were <b>killed</b>. The Saudi government arrested four perpetrators, who admitted being
+        Americans were <b>killed</b>, and 372 were wounded. The operation was carried out
+        <b>killed</b> 241 U.S. Marines in Lebanon in 1983. The relationship between al Qaeda and
+        Dozens of additional militants arrived on later <b>flight</b>s.
+    The attack on the U.S. embassy in Nairobi destroyed the embassy and <b>killed</b> 12
+        attack on the U.S. embassy in Dar es Salaam <b>killed</b> 11 more people, none of them
 </pre>        
 ### `grep -o`
 Maybe you want to only output the matched expression without the rest of the line. In this case, you will need to add `-o` after `grep` before expression arguments. The command-line input:
