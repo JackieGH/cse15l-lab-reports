@@ -1,10 +1,9 @@
 # Researching Commands
 ## Interesting Uses of the `grep` Command ##
 `grep` is a command-line tool that lets you find a pattern or expression in a given file, the output returns lines with matches to your string.<br> 
-
-Standard use of grep: <br>
+Just as a point of comparison, here is a standard use of grep: <br>
 `grep "zebra" zooPamphlet.txt` <br>
-_Here we want to find the word "zebra" in a file called "zooPamphlet.txt"_ <br>
+_find the word "zebra" in a file called "zooPamphlet.txt"_ <br>
 
 We will use the following-line tools for files and directories from `./technical`. <br>
 
