@@ -15,21 +15,21 @@ Sometimes you want to find a match for more than one expression, in this case yo
     
 Generates the output:
 <pre>        
-        Islam, and celebrated recent suicide **bombings** of American military facilities in the
-                Kingdom. It praised the 1983 suicide bombing in Beirut that killed 241 U.S. Marines,
-                the 1992 bombing in Aden, and especially the 1993 firefight in Somalia after which
-                November 24, 1989, when a remotely controlled car bomb killed Azzam and both of his
-                fatwa demanding their eviction. In December, bombs exploded at two hotels in Aden
-            In November 1995, a car bomb exploded outside a Saudi-U.S. joint facility in Riyadh
-            In June 1996, an enormous truck bomb detonated in the Khobar Towers residential
-                cloudy are the 1993 bombing of the World Trade Center, a plot that same year to
-                particular interest in learning how to use truck bombs such as the one that had
-                Dozens of additional militants arrived on later flights.
-                embassy in Nairobi was an easy target because a car bomb could be parked close by,
-                Members of the cells rented residences, and purchased bomb-making materials and
-                bombs, and acquired the delivery vehicles. On August 4, they made one last casing
-            On the morning of August 7, the bomb-laden trucks drove into the embassies roughly
-                permissible under Islam." Asked if he had indeed masterminded these bombings, Bin
+Islam, and celebrated recent suicide <b>bombings</> of American military facilities in the
+        Kingdom. It praised the 1983 suicide bombing in Beirut that killed 241 U.S. Marines,
+        the 1992 bombing in Aden, and especially the 1993 firefight in Somalia after which
+        November 24, 1989, when a remotely controlled car bomb killed Azzam and both of his
+        fatwa demanding their eviction. In December, bombs exploded at two hotels in Aden
+    In November 1995, a car bomb exploded outside a Saudi-U.S. joint facility in Riyadh
+    In June 1996, an enormous truck bomb detonated in the Khobar Towers residential
+        cloudy are the 1993 bombing of the World Trade Center, a plot that same year to
+        particular interest in learning how to use truck bombs such as the one that had
+        Dozens of additional militants arrived on later flights.
+        embassy in Nairobi was an easy target because a car bomb could be parked close by,
+        Members of the cells rented residences, and purchased bomb-making materials and
+        bombs, and acquired the delivery vehicles. On August 4, they made one last casing
+    On the morning of August 7, the bomb-laden trucks drove into the embassies roughly
+        permissible under Islam." Asked if he had indeed masterminded these bombings, Bin
  </pre>       
 Similarly, the command-line input:
 
