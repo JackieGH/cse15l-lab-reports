@@ -43,7 +43,7 @@ Generates the output:
 
 Similarly, the command-line input:
 
-        $grep -o -e "killed" -e "bomb" chapter-2.txt
+        $ grep -o -e "killed" -e "bomb" chapter-2.txt
 
 Generates the output:
 
@@ -60,13 +60,13 @@ Generates the output:
 
 Similarly, the command-line input: 
 
-        $grep -n -e "killed" -e "bomb" chapter-1.txt
+        $ grep -n -e "killed" -e "bomb" chapter-1.txt
 
 Generates the output:
 ### `grep -m`
 Another interesting take would be to only show a maximum _n_ (where _n_ is a number) times there are matches to the expression. The command-line output:
 
-        $grep -m 5 "bomb" chapter-2.txt
+        $ grep -m 5 "bomb" chapter-2.txt
 
 Generates the output: 
 
@@ -74,7 +74,7 @@ Generates the output:
 
 Similarly, the command-line input:
 
-
+        $ grep -m 10 "bomb" chapter-2.txt
 
 Generates the output:
 #### Sources that Helped Inform this Blog:
