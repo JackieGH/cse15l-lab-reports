@@ -9,12 +9,13 @@ _find string "zebra" in a file called "zooPamphlet.txt"_ <br>
 
 We will use the following-line tools for files and directories from `./technical`. <br>
 ### `grep -e`
-Sometimes you want to find a match for more than one expression, in this case you will need to add `-e` before every expression. 
+Sometimes you want to find a match for more than one expression, in this case you will need to add `-e` before every expression. The command-line input: 
 
         $ grep -e "bomb" -e "flight" chapter-2.txt
-        Islam, and celebrated recent suicide
     
-    
+Generates the output:
+        
+        Islam, and celebrated recent suicide bombings of 
 ### `grep -o`
 ### `grep -n`
 ### `grep -m`
