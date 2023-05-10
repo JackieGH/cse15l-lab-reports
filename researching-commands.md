@@ -7,8 +7,10 @@ Standard use of grep: <br>
 _Here we want to find the word "zebra" in a file called "zooPamphlet.txt"_ <br>
 
 ### `grep -e`
-Sometimes you want to find a match for more than one expression, in this case you will need to add `-e` <br>
-before every expression. 
+Sometimes you want to find a match for more than one expression, in this case you will need to add `-e` before every expression. 
+
+        $ grep -e "bomb" -e "flight" chapter-2.txt
+        Islam, and 
     
     
 ### `grep -o`
