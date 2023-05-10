@@ -62,7 +62,7 @@ Generates the output:
 <b>killed</b>
 <b>killed</b>
 <b>killed</b>
-<b>killed<b/>
+<b>killed</b>
 </pre>
 Similarly, the command-line input:
 
@@ -102,7 +102,7 @@ Or, perhaps, you want to not only find matches but line numbers for those matche
 
 Generates the output:
 
-        96:    All on board, along with an unknown number of people in the tower, were killed instantly.
+        96:    All on board, along with an unknown number of people in the tower, were <b>killed</b> instantly.
         104:    The hijackers attacked sometime between 8:42 and 8:46. They used knives (as reported by two passengers and a flight attendant), Mace (reported by one passenger), and the threat of a bomb (reported by the same passenger). They stabbed members of the flight crew (reported by a flight attendant and one passenger). Both pilots had been killed (reported by one flight attendant). The eyewitness accounts came from calls made from the rear of the plane, from passengers originally seated further forward in the cabin, a sign that passengers and perhaps crew had been moved to the back of the aircraft. Given similarities to American 11 in hijacker seating and in eyewitness reports of tactics and weapons, as well as the contact between the presumed team leaders, Atta and Shehhi, we believe the tactics were similar on both flights.
         108:    At 8:52, in Easton, Connecticut, a man named Lee Hanson received a phone call from his son Peter, a passenger on United 175. His son told him: "I think they've taken over the cockpit-An attendant has been stabbed- and someone else up front may have been killed. The plane is making strange moves. Call United Airlines-Tell them it's Flight 175, Boston to LA." Lee Hanson then called the Easton Police Department and relayed what he had heard.
         110:    Also at 8:52, a male flight attendant called a United office in San Francisco, reaching Marc Policastro. The flight attendant reported that the flight had been hijacked, both pilots had been killed, a flight attendant had been stabbed, and the hijackers were probably flying the plane. The call lasted about two minutes, after which Policastro and a colleague tried unsuccessfully to contact the flight.
