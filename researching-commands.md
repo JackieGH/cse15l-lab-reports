@@ -15,8 +15,8 @@ Sometimes you want to find a match for more than one expression, in this case yo
     
 Generates the output:
 <pre>        
-Islam, and celebrated recent suicide <b>bombings</> of American military facilities in the
-        Kingdom. It praised the 1983 suicide bombing in Beirut that killed 241 U.S. Marines,
+Islam, and celebrated recent suicide <b>bombings</b> of American military facilities in the
+        Kingdom. It praised the 1983 suicide <b>bomb</b>ing in Beirut that killed 241 U.S. Marines,
         the 1992 bombing in Aden, and especially the 1993 firefight in Somalia after which
         November 24, 1989, when a remotely controlled car bomb killed Azzam and both of his
         fatwa demanding their eviction. In December, bombs exploded at two hotels in Aden
