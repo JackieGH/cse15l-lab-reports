@@ -1,2 +1,3 @@
-#Interesting uses of the grep command#
-my word : **grep**
+#Researching Commands#
+##Interesting uses of the grep command##
+###my word : **grep**###
