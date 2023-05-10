@@ -6,11 +6,13 @@ Standard use of grep: <br>
 `grep "zebra" zooPamphlet.txt` <br>
 _Here we want to find the word "zebra" in a file called "zooPamphlet.txt"_ <br>
 
+We will use the following-line tools for files and directories from `./technical`. <br>
+
 ### `grep -e`
 Sometimes you want to find a match for more than one expression, in this case you will need to add `-e` before every expression. 
 
         $ grep -e "bomb" -e "flight" chapter-2.txt
-        Islam, and celebrated recent suicide <span style="color:red">some **This is Red Bold.** text</span> bomb
+        Islam, and celebrated recent suicide
     
     
 ### `grep -o`
