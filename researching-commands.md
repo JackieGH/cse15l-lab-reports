@@ -4,7 +4,7 @@
 
 Just as a point of comparison, here is a standard use of grep: <br>
 `grep "zebra" zooPamphlet.txt` <br>
-_find the word "zebra" in a file called "zooPamphlet.txt"_ <br>
+_find string "zebra" in a file called "zooPamphlet.txt"_ <br>
 
 
 We will use the following-line tools for files and directories from `./technical`. <br>
