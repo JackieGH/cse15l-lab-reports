@@ -16,7 +16,32 @@ Sometimes you want to find a match for more than one expression, in this case yo
 Generates the output:
         
         Islam, and celebrated recent suicide bombings of 
+        
+Similarly, the command-line input:
+
+        $ grep -e "killed" -e "flight" chapter-2.txt
+        
+Generates the output:
+
+        [Copy here]
+        
 ### `grep -o`
+Maybe you want to only output the matched expression without the rest of the line. In this case, you will need to add `-o` before every expression. The command-line input:
+
+        $ grep -o "killed" chapter-1.txt
+        
+Generates the output:
+
+        killed
+        killed
+        killed
+        killed
+        killed
+        killed
+        killed
+        killed
+
+
 ### `grep -n`
 ### `grep -m`
 #### Sources that Helped Inform this Blog:
