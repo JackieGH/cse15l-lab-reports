@@ -10,7 +10,7 @@ _Here we want to find the word "zebra" in a file called "zooPamphlet.txt"_ <br>
 Sometimes you want to find a match for more than one expression, in this case you will need to add `-e` before every expression. 
 
         $ grep -e "bomb" -e "flight" chapter-2.txt
-        Islam, and celebrated recent suicide `red color` bomb
+        Islam, and celebrated recent suicide <span style="color:red">some **This is Red Bold.** text</span> bomb
     
     
 ### `grep -o`
