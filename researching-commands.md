@@ -1,5 +1,8 @@
 # Researching Commands
-## Interesting uses of the grep command ##
-
+## Interesting Uses of the `grep` Command ##
+### grep -e
+### grep -o
+### grep -n
+### grep -m
 #### Sources
 
