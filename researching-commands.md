@@ -14,8 +14,8 @@ Sometimes you want to find a match for more than one expression, in this case yo
         $ grep -e "bomb" -e "flight" chapter-2.txt
     
 Generates the output:
-        
-        Islam, and celebrated recent suicide bombings of American military facilities in the
+<pre>        
+        Islam, and celebrated recent suicide **bombings** of American military facilities in the
                 Kingdom. It praised the 1983 suicide bombing in Beirut that killed 241 U.S. Marines,
                 the 1992 bombing in Aden, and especially the 1993 firefight in Somalia after which
                 November 24, 1989, when a remotely controlled car bomb killed Azzam and both of his
@@ -30,7 +30,7 @@ Generates the output:
                 bombs, and acquired the delivery vehicles. On August 4, they made one last casing
             On the morning of August 7, the bomb-laden trucks drove into the embassies roughly
                 permissible under Islam." Asked if he had indeed masterminded these bombings, Bin
-        
+ </pre>       
 Similarly, the command-line input:
 
         $ grep -e "killed" -e "flight" chapter-2.txt
