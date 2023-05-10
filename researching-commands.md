@@ -24,7 +24,7 @@ Islam, and celebrated recent suicide <b>bomb</b>ings of American military facili
     In June 1996, an enormous truck <b>bomb</b> detonated in the Khobar Towers residential
         cloudy are the 1993 <b>bomb</b>ing of the World Trade Center, a plot that same year to
         particular interest in learning how to use truck <b>bomb</b>s such as the one that had
-        Dozens of additional militants arrived on later flights.
+        Dozens of additional militants arrived on later <b>flights</b>.
         embassy in Nairobi was an easy target because a car <b>bomb</b> could be parked close by,
         Members of the cells rented residences, and purchased <b>bomb</b>-making materials and
         <b>bomb</b>s, and acquired the delivery vehicles. On August 4, they made one last casing
@@ -36,64 +36,64 @@ Similarly, the command-line input:
         $ grep -e "killed" -e "flight" chapter-2.txt
         
 Generates the output:
-
-        Kingdom. It praised the 1983 suicide bombing in Beirut that killed 241 U.S. Marines,
-                especially clear in Egypt. Confronted with a violent Islamist movement that killed
-                appeared to be ungainly but was in fact quite athletic, skilled as a horseman,
-                November 24, 1989, when a remotely controlled car bomb killed Azzam and both of his
-                were killed. The Saudi government arrested four perpetrators, who admitted being
-                Americans were killed, and 372 were wounded. The operation was carried out
-                killed 241 U.S. Marines in Lebanon in 1983. The relationship between al Qaeda and
-                Dozens of additional militants arrived on later flights.
-            The attack on the U.S. embassy in Nairobi destroyed the embassy and killed 12
-                attack on the U.S. embassy in Dar es Salaam killed 11 more people, none of them
-        
+<pre>
+Kingdom. It praised the 1983 suicide bombing in Beirut that <b>killed 241 U.S. Marines,
+        especially clear in Egypt. Confronted with a violent Islamist movement that <b>killed
+        appeared to be ungainly but was in fact quite athletic, s<b>killed as a horseman,
+        November 24, 1989, when a remotely controlled car bomb <b>killed Azzam and both of his
+        were <b>killed. The Saudi government arrested four perpetrators, who admitted being
+        Americans were <b>killed, and 372 were wounded. The operation was carried out
+        <b>killed 241 U.S. Marines in Lebanon in 1983. The relationship between al Qaeda and
+        Dozens of additional militants arrived on later flights.
+    The attack on the U.S. embassy in Nairobi destroyed the embassy and <b>killed 12
+        attack on the U.S. embassy in Dar es Salaam <b>killed 11 more people, none of them
+</pre>        
 ### `grep -o`
 Maybe you want to only output the matched expression without the rest of the line. In this case, you will need to add `-o` after `grep` before expression arguments. The command-line input:
 
         $ grep -o "killed" chapter-1.txt
         
 Generates the output:
-
-        killed
-        killed
-        killed
-        killed
-        killed
-        killed
-        killed
-        killed
-
+<pre>
+<b>killed</b>
+<b>killed</b>
+<b>killed</b>
+<b>killed</b>
+<b>killed</b>
+<b>killed</b>
+<b>killed</b>
+<b>killed<b/>
+</pre>
 Similarly, the command-line input:
 
         $ grep -o -e "killed" -e "bomb" chapter-2.txt
 
 Generates the output:
-
-        bomb
-        bomb
-        killed
-        bomb
-        killed
-        killed
-        bomb
-        killed
-        bomb
-        bomb
-        killed
-        bomb
-        killed
-        bomb
-        bomb
-        killed
-        bomb
-        bomb
-        bomb
-        bomb
-        killed
-        killed
-        bomb
-
+<pre>
+<b>bomb</b>
+<b>bomb</b>
+<b>killed</b>
+<b>bomb</b>
+<b>killed</b>
+<b>killed</b>
+<b>bomb</b>
+<b>killed</b>
+<b>bomb</b>
+<b>bomb</b>
+<b>killed</b>
+<b>bomb</b>
+<b>killed</b>
+<b>bomb</b>
+<b>bomb</b>
+<b>killed</b>
+<b>bomb</b>
+<b>bomb</b>
+<b>bomb</b>
+<b>bomb</b>
+<b>killed</b>
+<b>killed</b>
+<b>bomb</b>
+</pre>
 
 ### `grep -n`
 Or, perhaps, you want to not only find matches but line numbers for those matches as well. In this case, you will need to add `-n` after `grep` but before expression arguments. The command-line input: 
