@@ -64,7 +64,7 @@ Similarly, the command-line input:
 
 Generates the output:
 ### `grep -m`
-Another interesting take would be to only generate the first _n_ (where _n_ is a number) matches of the expression. The command-line output:
+Another interesting take would be to only show a maximum _n_ (where _n_ is a number) times there are matches to the expression. The command-line output:
 
         $grep -m 5 "bomb" chapter-2.txt
 
