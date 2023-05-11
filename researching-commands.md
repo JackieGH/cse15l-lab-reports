@@ -30,7 +30,11 @@ Members of the cells rented residences, and purchased <b>bomb</b>-making materia
 <b>bomb</b>s, and acquired the delivery vehicles. On August 4, they made one last casing
 On the morning of August 7, the <b>bomb</b>-laden trucks drove into the embassies roughly
 permissible under Islam." Asked if he had indeed masterminded these <b>bomb</b>ings, Bin
- </pre>       
+ </pre>  
+ The code block above can be read as the output of finding the words "bomb" and "flight" in the file chapter-2.txt <br>
+ Notice, that grep returns the the whole line where the matched word is found not just the matched word alone. <br>
+ (Also, unlike this code block that is limited to bolding, your terminal will usually highlight the matched word in a color)<br>
+ 
 Similarly, the command-line input:
 
         $ grep -e "killed" -e "flight" chapter-2.txt
@@ -47,7 +51,9 @@ Americans were <b>killed</b>, and 372 were wounded. The operation was carried ou
 Dozens of additional militants arrived on later <b>flight</b>s.
 The attack on the U.S. embassy in Nairobi destroyed the embassy and <b>killed</b> 12
 attack on the U.S. embassy in Dar es Salaam <b>killed</b> 11 more people, none of them
-</pre>        
+</pre> 
+The code block above can be read as the output of finding matches for the words "killed" and "flight" in chapter-2.txt <br>
+Notice, like the output before, "flight" only appears one time in chapter-2.txt
 ### `grep -o`
 Maybe you want to only output the matched expression without the rest of the line. In this case, you will need to add `-o` after `grep` before expression arguments. The command-line input:
 
@@ -64,6 +70,8 @@ Generates the output:
 <b>killed</b>
 <b>killed</b>
 </pre>
+To recap, there are eight lines that contain matches to the word "killed" in chapter-1.txt<br>
+
 Similarly, the command-line input:
 
         $ grep -o -e "killed" -e "bomb" chapter-2.txt
@@ -94,7 +102,8 @@ Generates the output:
 <b>killed</b>
 <b>bomb</b>
 </pre>
-
+To recap, there are nine lines that contain matches to the word "killed" in chapter-2.txt<br>
+And, 14 lines that contain matches to the word "bomb" in chapter-2.txt <br>
 ### `grep -n`
 Or, perhaps, you want to not only find matches but line numbers for those matches as well. In this case, you will need to add `-n` after `grep` but before expression arguments. The command-line input: 
 
@@ -111,6 +120,8 @@ Generates the output:
 178:    The cockpit voice recorder data indicate that a woman, most likely a flight attendant, was being held captive in the cockpit. She struggled with one of the hijackers who <b>killed</b> or otherwise silenced her.
 190:    Callers reported that a passenger had been stabbed and that two people were lying on the floor of the cabin, injured or dead-possibly the captain and first officer. One caller reported that a flight attendant had been <b>killed</b>.
 </pre>
+The number to the left of the text identifies what line(s) contain the matched word in chapter-1.txt<br>
+
 Similarly, the command-line input: 
 
         $ grep -n -e "killed" -e "bomb" chapter-1.txt
@@ -140,6 +151,7 @@ Generates the output:
 470:    The controller responded: "United 93, understand you have a <b>bomb</b> on board. Go ahead." The flight did not respond.
 510:    The news of a reported <b>bomb</b> on board United 93 spread quickly at NEADS. The air defenders searched for United 93's primary radar return and tried to locate other fighters to scramble. NEADS called Washington Center to report: NEADS: I also want to give you a heads-up, Washington.
 </pre>
+The number to the left of the text identifies what line(s) contain both or either of the matched words in chapter-1.txt<br>
 ### `grep -m`
 Another interesting take would be to only show a maximum _n_ (where _n_ is a number) times there are matches to the expression. The command-line output:
 
@@ -147,29 +159,33 @@ Another interesting take would be to only show a maximum _n_ (where _n_ is a num
 
 Generates the output: 
 <pre>
-        Islam, and celebrated recent suicide <b>bomb</b>ings of American military facilities in the
-        Kingdom. It praised the 1983 suicide <b>bomb</b>ing in Beirut that killed 241 U.S. Marines,
-        the 1992 <b>bomb</b>ing in Aden, and especially the 1993 firefight in Somalia after which
-        November 24, 1989, when a remotely controlled car <b>bomb</b> killed Azzam and both of his
-        fatwa demanding their eviction. In December, <b>bomb</b>s exploded at two hotels in Aden
+Islam, and celebrated recent suicide <b>bomb</b>ings of American military facilities in the
+Kingdom. It praised the 1983 suicide <b>bomb</b>ing in Beirut that killed 241 U.S. Marines,
+the 1992 <b>bomb</b>ing in Aden, and especially the 1993 firefight in Somalia after which
+November 24, 1989, when a remotely controlled car <b>bomb</b> killed Azzam and both of his
+fatwa demanding their eviction. In December, <b>bomb</b>s exploded at two hotels in Aden
 </pre>
+Note, that by default `grep` finds matches to words that contain the given expression, not just the word as it is. <br>
+
 Similarly, the command-line input:
 
         $ grep -m 10 "bomb" chapter-2.txt
 
 Generates the output:
 <pre>
-        Islam, and celebrated recent suicide <b>bomb</b>ings of American military facilities in the
-        Kingdom. It praised the 1983 suicide <b>bomb</b>ing in Beirut that killed 241 U.S. Marines,
-        the 1992 <b>bomb</b>ing in Aden, and especially the 1993 firefight in Somalia after which
-        November 24, 1989, when a remotely controlled car <b>bomb</b> killed Azzam and both of his
-        fatwa demanding their eviction. In December, <b>bomb</b>s exploded at two hotels in Aden
-    In November 1995, a car <b>bomb</b> exploded outside a Saudi-U.S. joint facility in Riyadh
-    In June 1996, an enormous truck <b>bomb</b> detonated in the Khobar Towers residential
-        cloudy are the 1993 <b>bomb</b>ing of the World Trade Center, a plot that same year to
-        particular interest in learning how to use truck <b>bomb</b>s such as the one that had
-        embassy in Nairobi was an easy target because a car <b>bomb</b> could be parked close by,
+Islam, and celebrated recent suicide <b>bomb</b>ings of American military facilities in the
+Kingdom. It praised the 1983 suicide <b>bomb</b>ing in Beirut that killed 241 U.S. Marines,
+the 1992 <b>bomb</b>ing in Aden, and especially the 1993 firefight in Somalia after which
+November 24, 1989, when a remotely controlled car <b>bomb</b> killed Azzam and both of his
+fatwa demanding their eviction. In December, <b>bomb</b>s exploded at two hotels in Aden
+In November 1995, a car <b>bomb</b> exploded outside a Saudi-U.S. joint facility in Riyadh
+In June 1996, an enormous truck <b>bomb</b> detonated in the Khobar Towers residential
+cloudy are the 1993 <b>bomb</b>ing of the World Trade Center, a plot that same year to
+particular interest in learning how to use truck <b>bomb</b>s such as the one that had
+embassy in Nairobi was an easy target because a car <b>bomb</b> could be parked close by,
 </pre>
+In the code above, since we just doubled the max count for the times we want to see "bomb", the first half of the code should be <br>
+exactly as the code block before it. 
 #### Sources that Helped Inform this Blog:
 
 [Code Snippets for grep Commands](https://www.makeuseof.com/grep-command-practical-examples/) <br>
