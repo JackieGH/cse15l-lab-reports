@@ -1,11 +1,9 @@
 # Mastering Vim 
 ## Step 4 ##
 ![Logging into ieng6](images/step4.jpg)
-In the image above, I am logging into ieng6. <br>
-I am logging in from my home computer <br>
-instead of my school laptop, so I have to manually <br> 
+In the image above, I am logging into ieng6. I am logging in from my home computer instead of my school laptop, so I have to manually 
 enter my credentials (no key-gen). <br>
-Luckily, I have logged in before so I press <br>
+Luckily, I have logged in before so I press 
 the `<up>` key three times and hit `<Enter>` . <br>
 My password is saved on a sticky note so I copy (`<ctrl>` + `c`) <br>
 and paste (by toggling `Edit` and clicking **Paste**) into VSCODE. <br>
@@ -15,11 +13,11 @@ and paste (by toggling `Edit` and clicking **Paste**) into VSCODE. <br>
 In the image above, two steps are shown. <br>
 Step 5: <br>
 **First I fork of the repository from my Github account.** <br>
-To do this, I press the `<up>` key 14 times (I know, not very efficient) <br>
+To do this, I press the `<up>` key 14 times <br>
 then copied (`<ctrl>` + `c`) the url from my corresponding Github repository. <br>
 I repositioned my cursor with the `<left arrow>` key so that I could get rid <br>
-the part between the domain and `/lab7` in the url. Hit `<backspace>` and <br>
-entered `JackieGH` .
+of the part between the domain and `/lab7` in the url. <br>
+Hit `<backspace>` and entered `JackieGH` .
 Step 6: <br>
 **Next, I run the tests demonstrating that they fail.** <br>
 The first thing I do after cloning is enter `pwd` so that I know where I'm at. <br>
@@ -31,16 +29,28 @@ To run the preliminary test, I enter `bash` and `<tab>` to autofill the desired 
 ## Step 7 ##
 ![Editing with vim](images/step7.jpg)
 Now that I know there is a bug in the `lab 7` files, I want to edit the file. <br>
-So, I enter `vim`, `<shift>` + `L`, `<tab>` + `.` + `<tab>` <br>
-Don't be alarmed, it's only the input to generate `vim ListExamples.java` so that we can edit the file in vim <br>
-I noticed that the cursor was positioned at the end bracket for `merge`, so I was able to navigate to the buggy <br>
-line pretty quickly. While in normal mode, I hit the `K` key three times and the `L` key 10 times. <br>
-Next, I hit `R` key followed by the number `2` key -- this replaced the value 1 with 2 without ever leaving normal mode. <br>
+So, I enter a series of commands and keys `vim`, `<shift>` + `L`, `<tab>` + `.` + `<tab>` <br>
+to generate `vim ListExamples.java` to edit the file in vim <br>
+
+I noticed that the cursor was positioned at the end bracket <br>
+for `merge`, so I was able to navigate to the buggy line pretty quickly. <br>
+While in normal mode, I hit the `K` key three times and the `L` key 10 times. <br>
+Next, I hit `R` key followed by `2` key. This replaced the value without ever leaving normal mode. <br>
 Lastly, I hit `:` followed by `wq` to prompt vim to save and exit.
 
 ## Step 8 ##
 ![git add](images/step8.jpg)
-So 
+So, to get to this screen, I entered `git add --all` so that all changes of all files are staged to be committed. <br>
+Next, I entered `git commit` . Since I didn't add `-m` to the end of the commit command, I was redirected to enter a **message**. <br>
+I replaced the highlighted `#` with the message "test commit". To exit this screen I entered `:wq` for save and quit.
+
 ![git push](images/step8confirm.jpg)
+It was all going well, at first. I entered `git push` and I was prompted to fill in my GitHub credentials. <br> 
+However, I then got an error message because token codes replace passwords for pushing from a command line, <br>
+so I had to leave the terminal to log into GitHub and enable tokens. <br>
+Once I got the token code, I copied (`<ctrl>` + `c`) and pasted into the terminal (by toggling `Edit` and clicking **Paste**) in VSCODE. <br>
+It went through and I got a successful push.
+
 ## Step 9 ##
 ![git push](images/steppush.jpg)
+Upon checking with GitHub that I indeed pushed a change. Note the "test commit" message.
