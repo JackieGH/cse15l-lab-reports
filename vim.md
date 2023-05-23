@@ -1,5 +1,6 @@
 # Mastering Vim 
 ## Step 4 ##
+!(images/step4.jpg)
 ## Step 5 ##
 ## Step 6 ##
 ## Step 7 ##
