@@ -13,7 +13,7 @@ My password saved on a sticky note is copied (`<ctrl>` + `c`) and pasted (by tog
 In the image above, two steps are shown. <br>
 
 Step 5: <br>
-**First I fork of the repository from my Github account.** <br>
+**First I fork the repository from my GitHub account.** <br>
 To do this, I press the `<up>` key 14 times <br>
 then copied (`<ctrl>` + `c`) the url from my corresponding Github repository. <br>
 I repositioned my cursor with the `<left arrow>` key so that I could get rid <br>
