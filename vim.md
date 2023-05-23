@@ -1,23 +1,25 @@
 # Mastering Vim 
 ## Step 4 ##
 ![Logging into ieng6](images/step4.jpg)
-In the image above, I am logging into ieng6. I am logging in from my home computer instead of my school laptop, so I have to manually 
-enter my credentials (no key-gen). <br>
-Luckily, I have logged in before so I press 
-the `<up>` key three times and hit `<Enter>` . <br>
-My password is saved on a sticky note so I copy (`<ctrl>` + `c`) <br>
-and paste (by toggling `Edit` and clicking **Paste**) into VSCODE. <br>
+In the image above, I am logging into ieng6. <br>
+I am logging in from my home computer instead of my school laptop, <br> 
+so I have to manually enter my credentials (no key-gen). <br>
+
+Luckily, I have logged in before so I press the `<up>` key three times and hit `<Enter>` . <br>
+My password saved on a sticky note is copied (`<ctrl>` + `c`) and pasted (by toggling `Edit` and clicking **Paste**). <br>
 
 ## Step 5 and 6 ##
 ![git clone](images/step5and6.jpg)
 In the image above, two steps are shown. <br>
+
 Step 5: <br>
 **First I fork of the repository from my Github account.** <br>
 To do this, I press the `<up>` key 14 times <br>
 then copied (`<ctrl>` + `c`) the url from my corresponding Github repository. <br>
 I repositioned my cursor with the `<left arrow>` key so that I could get rid <br>
 of the part between the domain and `/lab7` in the url. <br>
-Hit `<backspace>` and entered `JackieGH` .
+Hit `<backspace>` and entered `JackieGH` . <br>
+
 Step 6: <br>
 **Next, I run the tests demonstrating that they fail.** <br>
 The first thing I do after cloning is enter `pwd` so that I know where I'm at. <br>
