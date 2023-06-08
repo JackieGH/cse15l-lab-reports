@@ -7,4 +7,5 @@
 ![ta](images/ta.png)
 
 ## the resolution
+![fixed code](images/passed.png)
 ![fixed](images/fixed.png)
