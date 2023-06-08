@@ -4,4 +4,4 @@
 ![second half](images/post2.png)
 
 ## the TA response
-![ta](images/ta)
+![ta](images/ta.png)
