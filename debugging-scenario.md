@@ -5,3 +5,6 @@
 
 ## the TA response
 ![ta](images/ta.png)
+
+## the resolution
+![fixed](images/fixed.png)
