@@ -1,3 +1,3 @@
 # Debugging!
 ## the original post
-![images/post1.png]
+!(images/post1.png)
