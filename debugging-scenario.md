@@ -11,8 +11,8 @@
 ![fixed](images/fixed.png)
 
 ## the setup
-The file & directory structure needed to replicate this scenario is <br>
-Firstly, you will need to clone the lab7 repository from CSE15l lab. <br>
+The file and directory structure needed to replicate this scenario can only be replicated by <br>
+Cloning the lab7 repository from CSE15l lab from the command-line in a terminal <br>
 Then you will want to change directory into `lab7` <br>
 Next, you will need to do `bash test.sh ListExamplesTests.java` from the command-line <br>
 to compile and run the file so you can see what tests you passed or failed <br>
